@@ -1,0 +1,15 @@
+.Test {
+  height: 100vh;
+  width: 97vw;
+  background-color: rgb(184, 245, 105);
+  overflow-x: hidden;
+  position: relative;
+  padding: 50%;
+}
+
+h1 {
+    display: flex;
+position: absolute;
+  color: blue;
+  font-size: 40px;
+}

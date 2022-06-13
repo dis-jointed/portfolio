@@ -1,0 +1,186 @@
+.contact {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+}
+
+.contact__title {
+  color: #f44236;
+  margin-top: 230px;
+  font-family: "PoppinsMedium";
+  font-size: 20px;
+}
+
+.left__cont {
+  width: 100%;
+  height: 100%;
+}
+
+.left__cont h2 {
+  color: white;
+  font-size: 50px;
+  font-family: "PoppinsSemiBold";
+  margin-top: 30px;
+}
+
+.contact__desc {
+  color: #616161;
+  font-family: "PoppinsLight";
+  margin-top: 30px;
+}
+
+.mail__box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.mail__contact {
+  object-fit: contain;
+  height: 30px;
+}
+
+.mail__box p {
+  color: #616161;
+  font-family: "PoppinsLight";
+  margin-left: 5px;
+}
+
+.name__upper input {
+  width: 205px;
+  height: 27px;
+  padding-left: 20px;
+  font-family: "PoppinsRegular";
+  background-color: transparent;
+  border: 1px solid #616161;
+  border-radius: 30px;
+  color: #616161;
+}
+.right__cont {
+  padding-top: 280px;
+  position: relative;
+  margin-left: 300px;
+}
+
+.name__upper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.name__upper input {
+  margin-left: 10px;
+}
+
+.subject__input {
+  width: 450px;
+  max-width: 450px;
+  height: 27px;
+  padding-left: 20px;
+  font-family: "PoppinsRegular";
+  background-color: transparent;
+  border: 1px solid #616161;
+  border-radius: 30px;
+  color: #616161;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.messagee__input {
+  width: 450px;
+  height: 270px;
+  padding-left: 20px;
+  font-family: "PoppinsRegular";
+  background-color: transparent;
+  border: 1px solid #616161;
+  border-radius: 30px;
+  color: #616161;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left__cont h2 {
+    color: white;
+    font-size: 20px;
+    font-family: "PoppinsSemiBold";
+    margin-top: 30px;
+  }
+
+  .right__cont {
+    display: flex;
+    margin-left: 5px;
+    padding-top: 10px;
+    position: relative;
+    transform: translate(-20px,-420px);
+    margin-right: 70px;
+  }
+
+  .contact__desc {
+    color: #616161;
+    font-family: "PoppinsLight";
+    margin-top: 30px;
+    position: absolute;
+  }
+
+  .mail__box {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 85px;
+  }
+
+  .name__upper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: absolute;
+  }
+  .name__upper input {
+      width: 300px;
+  }
+
+  .subject__input {
+    width: 300px;
+    max-width: 300px;
+    height: 27px;
+    padding-left: 20px;
+    font-family: "PoppinsRegular";
+    background-color: transparent;
+    border: 1px solid #616161;
+    border-radius: 30px;
+    color: #616161;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 10px;
+  }
+
+  .messagee__input {
+    width: 300px;
+    height: 270px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "PoppinsRegular";
+    background-color: transparent;
+    border: 1px solid #616161;
+    border-radius: 30px;
+    transform: translateX(-8px);
+    color: #616161;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 10px;
+  }
+
+}

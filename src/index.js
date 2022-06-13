@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Poppins-Bold.ttf'
+import './fonts/Poppins-Medium.ttf'
+import './fonts/Poppins-Regular.ttf'
+import './fonts/Poppins-Light.ttf'
+import './fonts/Poppins-SemiBold.ttf'
 
 ReactDOM.render(
   <React.StrictMode>
